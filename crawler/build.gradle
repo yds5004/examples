@@ -1,0 +1,20 @@
+group 'net.ncue.martn.crawler'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+
+    // https://mvnrepository.com/artifact/net.htmlparser.jericho/jericho-html
+    compile group: 'net.htmlparser.jericho', name: 'jericho-html', version: '3.4'
+
+    // https://mvnrepository.com/artifact/org.jsoup/jsoup
+    compile group: 'org.jsoup', name: 'jsoup', version: '1.10.1'
+}
