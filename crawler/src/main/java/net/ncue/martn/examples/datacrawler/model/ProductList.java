@@ -1,4 +1,4 @@
-package net.ncue.martn.MartDataCrawler.model;
+package net.ncue.martn.examples.datacrawler.model;
 
 import java.util.ArrayList;
 

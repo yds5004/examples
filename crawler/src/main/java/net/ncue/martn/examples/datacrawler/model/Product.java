@@ -1,4 +1,4 @@
-package net.ncue.martn.MartDataCrawler.model;
+package net.ncue.martn.examples.datacrawler.model;
 
 /**
  * Created by dsyoon on 2017. 7. 8..

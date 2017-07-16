@@ -1,4 +1,4 @@
-package net.ncue.martn.MartDataCrawler.controller;
+package net.ncue.martn.examples.datacrawler.controller;
 
 import java.io.*;
 import java.net.HttpURLConnection;
@@ -7,9 +7,9 @@ import java.net.URLConnection;
 import java.net.URLEncoder;
 
 import net.htmlparser.jericho.Source;
-import net.ncue.martn.MartDataCrawler.dao.HtmlParser;
-import net.ncue.martn.MartDataCrawler.model.Product;
-import net.ncue.martn.MartDataCrawler.model.ProductList;
+import net.ncue.martn.examples.datacrawler.dao.HtmlParser;
+import net.ncue.martn.examples.datacrawler.model.Product;
+import net.ncue.martn.examples.datacrawler.model.ProductList;
 
 public class EmartDataCrawler {
 

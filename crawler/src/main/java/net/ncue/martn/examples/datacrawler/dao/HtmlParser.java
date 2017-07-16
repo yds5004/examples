@@ -1,15 +1,13 @@
-package net.ncue.martn.MartDataCrawler.dao;
+package net.ncue.martn.examples.datacrawler.dao;
 
-import net.ncue.martn.MartDataCrawler.model.Product;
-import net.ncue.martn.MartDataCrawler.model.ProductList;
+import net.ncue.martn.examples.datacrawler.model.Product;
+import net.ncue.martn.examples.datacrawler.model.ProductList;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.io.IOException;
-import java.net.HttpURLConnection;
-import java.net.URL;
 
 /**
  * Created by dsyoon on 2017. 7. 8..
